@@ -1,0 +1,88 @@
+:root {
+    --yellow: #f7b400;
+    --green: #439142;
+    --blue: #1d3968;
+    --white: #ffffff;
+}
+
+body {
+
+}
+
+#wrapper {
+    border: 10px solid #000;
+    width: 950px;
+    margin: auto;
+}
+
+#navBar {
+
+}
+
+#logo {
+
+    float: left;
+}
+
+#menuBarList{
+
+}
+
+#menuBarList>li{
+    display: inline;
+}
+
+#menuBarList {
+
+}
+
+#authNav {
+
+    float: right;
+}
+
+#authNavList>li {
+    
+    display: inline;
+}
+
+#signUp {
+    color: var(--white);
+    background-color: var(--green);
+    padding: 10px;
+    text-align: center;
+}
+
+#midBanner {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+#midBannerHeader{
+    text-align: center;
+}
+
+#midBannerText {
+    text-align: center;
+}
+
+#demoButton {
+    margin: auto;
+    width: 15%;
+    border: 3px solid green;
+    background-color: var(--green);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+#footerBarList{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#footerBarList>li {
+    display: inline;
+}
+
