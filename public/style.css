@@ -3,10 +3,11 @@
     --green: #439142;
     --blue: #1d3968;
     --white: #ffffff;
+    
 }
 
 body {
-
+    overflow: hidden;
 }
   
 a {
@@ -157,6 +158,12 @@ img {
 .footerIcon {
     width: 30%;
     margin: auto;
+
+}
+
+.footerIconImage {
+    
+
 }
 
 .footerNumber {
