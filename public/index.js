@@ -17,19 +17,19 @@ function changeColor(){
         prevColor = bannerStyle.background;
         bannerStyle.background = "#49b19f";
         colorToggle = true;
-        footerImage1.src = "footerItem1Alt.jpg";
-        footerImage2.src = "footerItem2Alt.jpg";
-        footerImage3.src = "footerItem3Alt.jpg";
+        footerImage1.src = "images/footerItem1Alt.jpg";
+        footerImage2.src = "images/footerItem2Alt.jpg";
+        footerImage3.src = "images/footerItem3Alt.jpg";
 
-        logo.src = "LOGOAlt.png";
+        logo.src = "images/LOGOAlt.png";
 
     }else{
         bannerStyle.background = prevColor;
         colorToggle = false;
-        footerImage1.src = "footerItem1.jpg";
-        footerImage2.src = "footerItem2.jpg";
-        footerImage3.src = "footerItem3.jpg";
-        logo.src = "LOGO.png";
+        footerImage1.src = "images/footerItem1.jpg";
+        footerImage2.src = "images/footerItem2.jpg";
+        footerImage3.src = "images/footerItem3.jpg";
+        logo.src = "images/LOGO.png";
     }
     
 }
