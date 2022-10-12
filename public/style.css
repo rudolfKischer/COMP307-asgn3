@@ -8,43 +8,83 @@
 body {
 
 }
+  
+a {
+    text-decoration: none;
+    color: #000000;
+}
+  
 
 #wrapper {
     border: 10px solid #000;
     width: 950px;
+    height: 670px;
     margin: auto;
+    font-family: Arial, sans-serif;
 }
 
 #navBar {
-
+    display: flex;
+    justify-content: flex-start;
+    height: 11.4%;    
 }
 
 #logo {
+    width: 19%;
+    /* border: 3px dashed #1c87c9; */
+    display: flex;
+    justify-content: flex-start;
+}
 
-    float: left;
+#logoContainer {
+    
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain;  */
+}
+
+#menu{
+    width: 45%;
+    font-weight: bold;
+    /* border: 3px dashed #1c87c9; */
+    display: flex;
+    justify-content: flex-start;
+    align-items : center;
 }
 
 #menuBarList{
-
+    width: 100%;
+    /* border: 3px dashed #1c87c9; */
+    font-size: 13px;
+    gap: 15px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-#menuBarList>li{
-    display: inline;
-}
-
-#menuBarList {
-
-}
 
 #authNav {
-
-    float: right;
-}
-
-#authNavList>li {
     
-    display: inline;
+    font-size: 15px;
+    width: 35%;
+    gap: 15px;
+    /* border: 3px dashed #1c87c9; */
+    display: flex;
+    justify-content: center;
+    align-items : center;
 }
+
+#authNavList>div {
+    display: block;
+    /* border: 3px dashed #1c87c9; */
+}
+
+#signUp {
+    width: 20%;
+}
+
 
 #signUp {
     color: var(--white);
@@ -56,18 +96,45 @@ body {
 #midBanner {
     background-color: var(--blue);
     color: var(--white);
+    height: 45.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items : center;
 }
 
 #midBannerHeader{
-    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    height: 45%;
+    display : flex;
+    align-items : center;
+    justify-content: center
 }
 
 #midBannerText {
+    font-weight: light;
+    font-family: Helvetica, sans-serif;
     text-align: center;
+    font-size: 17px;
+    height: 10%;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    line-height: 2;
+}
+
+#demoButtonDiv {
+    height: 45%;
+    width: 100%;
+    display : flex;
+    align-items : center;
+    justify-content: center
 }
 
 #demoButton {
-    margin: auto;
+    /* margin: auto; */
+    align-items : center;
     width: 15%;
     border: 3px solid green;
     background-color: var(--green);
@@ -77,12 +144,34 @@ body {
 
 
 
-#footerBarList{
-    overflow: hidden;
-    white-space: nowrap;
+#footerBar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 42.7%;
 }
 
 #footerBarList>li {
     display: inline;
 }
 
+.footerIcon {
+    width: 30%;
+    margin: auto;
+}
+
+.footerNumber {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footerItem {
+    margin: auto;
+    flex: 1 1 0;
+    width: 0;
+}
+
+.footerInfo {
+    text-align: center;
+    font-size: 13px;
+}
