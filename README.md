@@ -5,3 +5,6 @@ Author:Rudolf Kischer
 Assignment 2: website with js and css
 
 Browser: Chrome , Most updated version
+
+width: 950px;
+height: 670px;
